@@ -1,0 +1,58 @@
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-button-next:hover{
+    border: 1px rgb(204, 200, 200);
+    width: 40px; /* Adjust the width and height as needed */
+    height: 40px;
+    border-radius: 100px 100px 100px 100px;
+    background: rgb(204, 200, 200);
+
+    
+  }
+  .swiper-button-next{
+    color: rgb(184, 174, 174);
+
+    
+  }
+  .swiper-button-prev:hover{
+    border: 1px rgb(204, 200, 200);
+    width: 40px; /* Adjust the width and height as needed */
+    height: 40px;
+    border-radius: 100px 100px 100px 100px;
+    background: rgb(204, 200, 200);
+    
+  }
+
+  .swiper-button-prev{
+    color: rgb(184, 174, 174);
+
+  }
+
+
+  #top_div{
+    font-family: 'Lato', sans-serif;
+}
+
+#browse_deals{
+  font-family: 'Quicksand', sans-serif;
+}
